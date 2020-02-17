@@ -13,4 +13,6 @@ python GRec_NCE.py  (NCE sampling. Be careful with the number of negative exampl
 
 You can also replace our sampling method and CE loss with other well-known negative sampler or loss functions, such as LambdaFM.
 
+Dataset link: http://www.mediafire.com/file/x5rky4q6bor0wn6/movielen_100.csv/file
+
 
