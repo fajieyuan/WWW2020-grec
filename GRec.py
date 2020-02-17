@@ -189,6 +189,8 @@ def main():
                         help='whether contains positional embedding before performing cnnn')
     parser.add_argument('--padtoken', type=str, default='-1',
                         help='is the padding token in the beggining of the sequence')
+    parser.add_argument('--is_shuffle', type=bool, default=False,
+                        help='whether shuffle the training and testing dataset, e.g., 012345-->051324')
 
 
     args = parser.parse_args()
