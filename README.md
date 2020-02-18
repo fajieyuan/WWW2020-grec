@@ -8,6 +8,7 @@
 }
 
 python GRec.py
+
 or
 python GRec_NCE.py  (NCE sampling. Be careful with the number of negative examples.)
 
