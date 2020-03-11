@@ -1,1 +1,0 @@
-waiting permission from Tencent!
