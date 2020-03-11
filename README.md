@@ -1,4 +1,6 @@
+##waiting for permission from Tencent
 # grec
+
 @article{yuan2019future,
   title={Future Data Helps Training: Modeling Future Contexts for Session-based Recommendation},
   author={Yuan, Fajie and He, Xiangnan and Jiang, Haochuan and Guo, Guibing and Xiong, Jian and Xu, Zhezhao and Xiong, Yilin},
