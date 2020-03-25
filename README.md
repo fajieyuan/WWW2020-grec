@@ -1,4 +1,5 @@
-##...waiting for permission from Tencent
+
+
 # grec
 
 @article{yuan2019future,
