@@ -1,4 +1,4 @@
-##important files are not uploaded...waiting for permission from Tencent
+##...waiting for permission from Tencent
 # grec
 
 @article{yuan2019future,
