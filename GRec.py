@@ -233,7 +233,7 @@ def main():
         'dilations': [1,4,1,4,],
         'kernel_size': 3,
         'learning_rate':0.001,
-        'batch_size':256,# a proper batch size helps a lot {64,128,256,512}
+        'batch_size':256,# a proper batch size helps a lot {128,256,512}
         'iterations':400,
         'max_position':args.max_position,#maximum number of for positional embedding, it has to be larger than the sequence lens
         'has_positionalembedding':args.has_positionalembedding,
