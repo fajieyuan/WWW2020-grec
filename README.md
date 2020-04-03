@@ -1,6 +1,6 @@
 
 
-# grec
+## Future Data Helps Training: Modeling Future Contexts for Session-based Recommendation
 
 @article{yuan2019future,
   title={Future Data Helps Training: Modeling Future Contexts for Session-based Recommendation},
@@ -10,7 +10,7 @@
   year={2019}
 }
 
-python GRec.py
+##python GRec.py
 
 or
 python GRec_NCE.py  (NCE sampling. Be careful with the number of negative examples.)
