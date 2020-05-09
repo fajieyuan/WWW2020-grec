@@ -326,7 +326,7 @@ def main():
                 ndcg_preds_20  = []  # 1
                 while (batch_no_test + 1) * batch_size_test < valid_set.shape[0]:
                     if (numIters / (args.eval_iter) < 20):
-                        if (batch_no_test > 50):
+                        if (batch_no_test > 10):
                             break
                     else:
                         if (batch_no_test > 100):
@@ -379,7 +379,7 @@ def main():
 
                     batch_no_test += 1
                     if (numIters / (args.eval_iter) < 20):
-                        if (batch_no_test == 50):
+                        if (batch_no_test == 10):
                             print "BATCH_NO: {}".format(batch_no_test)
                             print "mrr_5:", sum(curr_preds_5) / float(len(curr_preds_5)), "mrr_20:", sum(
                                 curr_preds_20) / float(len(curr_preds_20)), "hit_5:", sum(rec_preds_5) / float(
