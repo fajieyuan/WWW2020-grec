@@ -149,8 +149,6 @@ class GRec_Archi:
             label_flat = tf.reshape(label_ids, [-1])
             loss = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=label_flat, logits=logits_2D)
         loss = tf.reduce_mean(loss)
-
-        # not sure the impact, 0.001 is empirical value, for large session data it is not very userful
         regularization = 0.001 * tf.reduce_mean([tf.nn.l2_loss(v) for v in tf.trainable_variables()])
         loss=loss+regularization
 
