@@ -173,14 +173,14 @@ def main():
                         help='hyperpara-Adam')
     parser.add_argument('--datapath', type=str, default='Data/Session/ratings_seq20_order.txt',
                         help='data path')
-    parser.add_argument('--eval_iter', type=int, default=500,
+    parser.add_argument('--eval_iter', type=int, default=10,
                         help='Sample generator output evry x steps')
-    parser.add_argument('--save_para_every', type=int, default=500,
+    parser.add_argument('--save_para_every', type=int, default=10,
                         help='save model parameters every')
     parser.add_argument('--tt_percentage', type=float, default=0.2,
                         help='0.2 means 80% training 20% testing')
 
-    parser.add_argument('--masked_lm_prob', type=float, default=0.5,
+    parser.add_argument('--masked_lm_prob', type=float, default=0.4,
                         help='0.2 means 20% items are masked')
     parser.add_argument('--max_predictions_per_seq', type=int, default=50,
                         help='maximum number of masked tokens')
@@ -232,7 +232,7 @@ def main():
         'dilations': [1,4,1,4,],
         'kernel_size': 3,
         'learning_rate':0.001,
-        'batch_size':256,# a proper batch size helps a lot {64,128,256,512}
+        'batch_size':8,# a proper batch size helps a lot {e.g.,256, 512}
         'iterations':400,
         'max_position':args.max_position,#maximum number of for positional embedding, it has to be larger than the sequence lens
         'has_positionalembedding':args.has_positionalembedding,
