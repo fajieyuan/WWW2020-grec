@@ -173,9 +173,9 @@ def main():
                         help='hyperpara-Adam')
     parser.add_argument('--datapath', type=str, default='Data/Session/ratings_seq20_order.txt',
                         help='data path')
-    parser.add_argument('--eval_iter', type=int, default=6000,
+    parser.add_argument('--eval_iter', type=int, default=500,
                         help='Sample generator output evry x steps')
-    parser.add_argument('--save_para_every', type=int, default=6000,
+    parser.add_argument('--save_para_every', type=int, default=500,
                         help='save model parameters every')
     parser.add_argument('--tt_percentage', type=float, default=0.2,
                         help='0.2 means 80% training 20% testing')
