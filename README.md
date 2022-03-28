@@ -9,8 +9,8 @@
   year={2020}
 }
 
-# NextItNet pytorch version: https://github.com/syiswell/NextItNet-Pytorch
-# GRec  pytorch version: https://github.com/hangjunguo/GRec
+### NextItNet pytorch version: https://github.com/syiswell/NextItNet-Pytorch
+### GRec  pytorch version: https://github.com/hangjunguo/GRec
 
 Session-based recommender systems have attracted much attention recently. To capture the sequential dependencies, existing methods resort either to data augmentation techniques or left-to-right style autoregressive training. Since these methods are aimed to model the sequential nature of user behaviors, they ignore the future data of a target interaction when constructing the prediction model for it. However, we argue that the future interactions after a target interaction, which are also available during training, provide valuable signal on user preference and can be used to enhance the
 recommendation quality.
