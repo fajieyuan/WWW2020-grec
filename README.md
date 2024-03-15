@@ -1,6 +1,8 @@
 
 
-## Future Data Helps Training: Modeling Future Contexts for Session-based Recommendation
+## Future Data Helps Training: Modeling Future Contexts for Session-based Recommendation （BART4Rec）
+
+Grec shares high network similarity with BART but is published earlier than BART on Arxiv.
 
 
 
