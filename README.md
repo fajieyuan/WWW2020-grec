@@ -1,6 +1,10 @@
 
 
 ## Future Data Helps Training: Modeling Future Contexts for Session-based Recommendation
+
+
+
+```
 @inproceedings{yuan2020future,
   title={Future Data Helps Training: Modeling Future Contexts for Session-based Recommendation},
   author={Yuan, Fajie and He, Xiangnan and Jiang, Haochuan and Guo, Guibing and Xiong, Jian and Xu, Zhezhao and Xiong,   Yilin},
@@ -8,6 +12,8 @@
   pages={303--313},
   year={2020}
 }
+
+```
 
 ### NextItNet pytorch version: https://github.com/syiswell/NextItNet-Pytorch
 ### GRec  pytorch version: https://github.com/hangjunguo/GRec
